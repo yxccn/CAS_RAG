@@ -1,0 +1,19 @@
+According to the given JSON sentence, you need to complete the following tasks:
+1. Ask 3 questions about abstract_text in Chinese.
+2. Find the passage in the abstract_text to which the questions refer.
+3. Answer the questions in Chinese, and you MUST answer them in the original passages!!!
+4. Populate the json with the above information as shown below, then show the json ONLY:
+{
+    "query": "String - Generated query 1.",
+    "query_by": {
+        "model_name": "model_name",
+        "type": "type"
+    },
+    "reference_contexts": [
+        ""
+    ],
+    "reference_answer": "",
+    "reference_answer_by": {
+        "type": "human"
+    }
+}

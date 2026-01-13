@@ -1,0 +1,16 @@
+Based on the given file, populate the following json structure in the original language, then show the json ONLY:
+{
+  "UUID": {
+    "title": "String - The title of the document or article",
+    "abstract_text": "String - A comprehensive summary of the document, can NOT be empty",
+    "journal": "String - The name of the journal where the document was published",
+    "ca_terms": [
+      "String - Cival aviation terms related to the document"
+    ],
+    "doi": "String - The Digital Object Identifier for the document",
+    "year": "String - The year the document was published",
+    "authors": [
+      "String - Names of authors"
+    ]
+  }
+}
