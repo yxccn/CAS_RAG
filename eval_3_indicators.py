@@ -73,7 +73,7 @@ with tqdm(total=num_examples, desc="Evaluating RAG") as pbar:
         question = example.query
         ground_truth = example.reference_answer
 
-        ##################################################eval
+        ###eval
         metrics_results = runner.evaluate_queries(
             full_query_engine, queries=[question], reference=[ground_truth]
         )
